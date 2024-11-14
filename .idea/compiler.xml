@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Repeting_the_basics_of_java" />
+        <module name="Repeating_the_basics_of_java" />
       </profile>
     </annotationProcessing>
   </component>
