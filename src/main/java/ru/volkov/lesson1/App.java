@@ -1,4 +1,4 @@
-package ru.volkov;
+package ru.volkov.lesson1;
 
 /**
  * Hello world!
@@ -17,7 +17,7 @@ public class App
 
 //        ClassExample example = new ClassExample();
 //        example.print();
-        // java: ru.volkov.ClassExample is abstract; cannot be instantiated
+        // java: ru.volkov.lesson1.ClassExample is abstract; cannot be instantiated
         /* если класс будет абстрактным, то нельзя создать экземпляр класса
         * */
 

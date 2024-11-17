@@ -1,7 +1,7 @@
-package ru.volkov;
+package ru.volkov.lesson1;
 
 public abstract  class ClassExample {
-// java: cannot inherit from final ru.volkov.ClassExample
+// java: cannot inherit from final ru.volkov.lesson1.ClassExample
 // если задать модификатор final
 
     String text = "";

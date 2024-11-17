@@ -1,4 +1,4 @@
-package ru.volkov;
+package ru.volkov.lesson1;
 
 public class ExtendedClass extends ClassExample{
 
