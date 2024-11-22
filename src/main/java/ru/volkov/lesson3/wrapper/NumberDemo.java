@@ -10,8 +10,8 @@ public class NumberDemo {
 //        compare(int1);
         Integer i = Integer.valueOf(124);
 
-//        int i2 = 124;
-//        System.out.println(i == i2);
+        int i2 = 124;
+        System.out.println(i == i2);
 
     }
 

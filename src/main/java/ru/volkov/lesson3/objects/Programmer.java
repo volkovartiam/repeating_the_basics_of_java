@@ -32,11 +32,12 @@ public class Programmer {
         return position;
     }
 
-//    invalid variant
+    //invalid variant
 //    @Override
 //    public int hashCode() {
 //        return id;
 //    }
+
 
 //    not full variant
 //    @Override
@@ -75,6 +76,16 @@ public class Programmer {
         result = 31 * result + i;
         result = 31 * result + id;
         return result;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Programmer{" +
+                "id=" + id +
+                ", position='" + position + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 
 

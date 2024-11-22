@@ -9,6 +9,7 @@ public class CloneCarDeepDemo {
 
         Driver clonedCarDriver = clonedCar.getDriver();
         clonedCarDriver.setName("Артем");
+        clonedCarDriver.setAge(30);
 
         System.out.println("Оригинал после изменения имени водителя:\t" + car);
         System.out.println("Клон после изменения имени водителя:   \t\t" + clonedCar);

@@ -16,6 +16,6 @@ public class StringBufferDemo {
         // buffer.delete([стартовый индекс], [индекс конечного символа])
 
         buffer.insert(buffer.length(), surName); // вставляем строку по определенному индексу
-        // buffer.insert([с какого индекса вставить], [cтрока])
+//         buffer.insert([с какого индекса вставить], [cтрока])
     }
 }
