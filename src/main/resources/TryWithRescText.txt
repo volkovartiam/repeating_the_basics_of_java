@@ -1,0 +1,2 @@
+TryWithResc test - first line;
+TryWithResc test - second line.
