@@ -13,7 +13,7 @@ public class ThreadCounterJoinDemo {
 
         try {
             tcw1.join();
-//            tcw2.join();
+            tcw2.join();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

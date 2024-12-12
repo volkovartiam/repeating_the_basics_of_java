@@ -17,6 +17,6 @@ public class RunAsyncDemo {
             System.out.println("I'll run in a separate thread than the main thread.");
         });
 
-
+        future.get();
     }
 }

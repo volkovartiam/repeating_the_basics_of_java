@@ -6,7 +6,8 @@ public class FooSafeDemo {
     public static void main(String[] args) {
         FooSafe foo = new FooSafe();
 
-        Thread t1 = new Thread(foo::second);
+//        Thread t1 = new Thread(foo::second);
+        Thread t1 = new Thread( () -> foo.second() );
         Thread t2 = new Thread(foo::first);
         Thread t3 = new Thread(foo::third);
 

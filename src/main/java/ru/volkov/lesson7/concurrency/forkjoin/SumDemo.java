@@ -11,7 +11,6 @@ public class SumDemo {
 
         fillArray(array);
 
-
         long start = System.currentTimeMillis();
         try (ForkJoinPool forkJoinPool = new ForkJoinPool()) {
             long calculatedSum = forkJoinPool.invoke(new SumTask(array, 0, array.length));
